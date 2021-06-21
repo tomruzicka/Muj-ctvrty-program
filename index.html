@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>04</title>
+  </head>
+  <body>
+    <div class="program">
+      <h1 class="first-heading">Můj čtvrtý program</h1>
+      <h2 class="second-heading">Generování tabulky</h2>
+
+      <div class="group">
+        <input
+          type="number"
+          id="number"
+          class="number"
+          min="0"
+          max="10"
+          value="10"
+          oninput="change(this.value)"
+          readonly
+        />
+      </div>
+
+      <div class="group">
+        <input
+          type="range"
+          id="range"
+          class="range"
+          min="0"
+          max="10"
+          oninput="change(this.value)"
+        />
+      </div>
+
+      <table id="table"></table>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

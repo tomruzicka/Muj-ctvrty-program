@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Fira Sans", sans-serif;
+  background-image: linear-gradient(
+    to right top,
+    #1a2980 0%,
+    #26d0ce 50%,
+    #1a2980 100%
+  );
+  overflow: hidden;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  display: none;
+}
+
+.first-heading,
+.second-heading {
+  text-align: center;
+}
+.first-heading {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.second-heading {
+  font-weight: 500;
+}
+
+.program {
+  max-width: 400px;
+  border-radius: 25px;
+  padding: 20px;
+  background: rgb(255, 255, 255);
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.4);
+  margin: 90px auto;
+}
+
+.group {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.number {
+  width: 60px;
+  height: 60px;
+
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  border: 3px solid rgb(0, 162, 255);
+  border-radius: 50%;
+  outline: none;
+}
+
+.range {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 200px;
+  height: 2px;
+  background: #0c4140;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+.range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: rgb(0, 162, 255);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+table {
+  margin: auto;
+  border-collapse: collapse;
+}
+
+td {
+  font-size: 18px;
+  font-weight: 500;
+  border: 2px solid rgb(0, 162, 255);
+  padding: 5px;
+  text-align: center;
+}
